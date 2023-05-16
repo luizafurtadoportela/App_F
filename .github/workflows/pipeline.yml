@@ -28,7 +28,7 @@ jobs:
     - name: Compilar o Projeto
       run: |
         cd src
-        javac -cp src Main.java
+        javac -cp . Main.java
       
     # Execultar o Projeto
     - name: Executado Projeto
